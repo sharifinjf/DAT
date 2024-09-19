@@ -122,6 +122,42 @@ python evaluate.py --experiment DAT --model forecast_n3dtf --forecast_mode veloc
 python evaluate.py --experiment DAT --model forecast_n3dtf --forecast_mode velocity_dense  --cohort_analysis --K 5 --classname pedestrian --eval_only
 
 ```
+
+#### DAT + MAP
+```bash
+# Cars
+python train.py --experiment DAT --model forecast_n3dtfm
+
+python evaluate.py --experiment DAT --model forecast_n3dtfm --forecast_mode velocity_dense  --cohort_analysis --extractBox
+
+python evaluate.py --experiment DAT --model forecast_n3dtfm --forecast_mode velocity_dense  --cohort_analysis --K 5 --eval_only
+
+# Pedestrians
+python train.py --experiment DAT --model pedestrian_forecast_n3dtf
+
+python evaluate.py --experiment DAT --model forecast_n3dtfm --forecast_mode velocity_dense  --cohort_analysis --classname pedestrian --extractBox
+
+python evaluate.py --experiment DAT --model forecast_n3dtfm --forecast_mode velocity_dense  --cohort_analysis --K 5 --classname pedestrian --eval_only
+
+```
+
+#### DAT + PointPillar
+```bash
+# Cars
+python train.py --experiment DAT --model forecast_n3dtfm
+
+python evaluate.py --experiment DAT --model pp_forecast_n3dtfm --forecast_mode velocity_dense  --cohort_analysis --extractBox
+
+python evaluate.py --experiment DAT --model pp_forecast_n3dtfm --forecast_mode velocity_dense  --cohort_analysis --K 5 --eval_only
+
+# Pedestrians
+python train.py --experiment DAT --model pp_pedestrian_forecast_n3dtf
+
+python evaluate.py --experiment DAT --model pp_forecast_n3dtfm --forecast_mode velocity_dense  --cohort_analysis --classname pedestrian --extractBox
+
+python evaluate.py --experiment DAT --model pp_forecast_n3dtfm --forecast_mode velocity_dense  --cohort_analysis --K 5 --classname pedestrian --eval_only
+
+```
 #### Evaluation Parameters
 ```
 extractBox -> Uses modelCheckPoint to run inference on GPUs and save results to disk
