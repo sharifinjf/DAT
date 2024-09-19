@@ -42,7 +42,7 @@ Be sure to change the paths in configs and syspath in the following files:
 ### Benchmark Evaluation and Training
 
 #### Prepare Data for Training and Evaluation 
-
+DAT works with both versions of the nuScenes dataset: v1.0-trainval and v1.0-mini. The v1.0-mini version is a good option for debugging.
 ```
 # For nuScenes Dataset         
 └── NUSCENES_DATASET_ROOT
@@ -53,7 +53,7 @@ Be sure to change the paths in configs and syspath in the following files:
 ```
 
 Data creation should be under the GPU environment.
-DAT works with both versions of the nuScenes dataset: v1.0-trainval and v1.0-mini. The v1.0-mini version is a good option for debugging.
+
 The dataset path must be set in the `configs/centerpoint` directory and in the `evaluate.py` file.
 
 ```
