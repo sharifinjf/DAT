@@ -142,14 +142,12 @@ K -> topK evaluation, only useful for FutureDet
 ### [Pre-trained Models](https://drive.google.com/drive/folders/18fvE3MvXQGDThIPs9iFjQMuUJp5_waxp?usp=sharing)
 
 ## Acknowlegement
-This project is not possible without multiple great opensourced codebases. We list some notable examples below.  
+This project is not possible without multiple great opensourced codebases. We list some notable examples below.
+* [TrajectoryNAS]((https://github.com/sharifinjf/TrajectoryNAS))
 * [FutuerDet](https://github.com/neeharperi/FutureDet/tree/main)
 * [det3d](https://github.com/poodarchu/det3d)
 * [second.pytorch](https://github.com/traveller59/second.pytorch)
-* [CenterTrack](https://github.com/xingyizhou/CenterTrack)
 * [CenterNet](https://github.com/xingyizhou/CenterNet) 
-* [mmcv](https://github.com/open-mmlab/mmcv)
-* [mmdetection](https://github.com/open-mmlab/mmdetection)
 * [OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
 * [CenterPoint](https://github.com/tianweiy/CenterPoint)
 
