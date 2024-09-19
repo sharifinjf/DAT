@@ -1,4 +1,4 @@
-# DAT
+# DAT : Deep Learning-based Acceleration-Aware Trajectory forecasting
 <img src="https://github.com/sharifinjf/DAT/raw/refs/heads/main/docs/pipline.svg" >
 
 ### Requirements
