@@ -7,7 +7,7 @@
 
 ### Requirements
 - OS: Ubuntu 18.04
-- Python: 3.7.10 
+- Python: 3.7.17 
 - PyTorch: 1.11.0+cu113
 - spconv-cu113: 2.2.6
 - CUDA: 11.3
@@ -16,7 +16,7 @@
 
 ```bash
 # Basic python libraries
-python3.8 -m venv DAT
+python3.7.17 -m venv DAT
 source DAT/bin/activate
 git clone git@github.com:sharifinjf/DAT.git
 pip install -r requirements.txt
