@@ -1,0 +1,19 @@
+{
+  "class_range": {
+    "static_car": 50,
+    "linear_car": 50,
+    "nonlinear_car": 50,
+    "static_pedestrian": 40,
+    "linear_pedestrian": 40,
+    "nonlinear_pedestrian": 40
+  },
+  
+  "dist_fcn": "center_distance",
+  "dist_ths": [0.5, 1.0, 2.0, 4.0],
+  "dist_th_tp": 2.0,
+  "forecast_th" : 5,
+  "min_recall": 0.1,
+  "min_precision": 0.1,
+  "max_boxes_per_sample": 500,
+  "mean_ap_weight": 5
+}
