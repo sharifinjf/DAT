@@ -1,9 +1,5 @@
 # DAT
-<video width="320" height="240" controls loop muted autoplay>
-  <source src="https://raw.githubusercontent.com/sharifinjf/DAT/main/docs/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-![A](docs/pipline.svg)
+<img src="https://github.com/sharifinjf/DAT/raw/refs/heads/main/docs/pipline.svg" >
 
 ### Requirements
 - OS: Ubuntu 20.04.06
