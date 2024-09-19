@@ -6,7 +6,7 @@
 ![A](docs/pipline.svg)
 
 ### Requirements
-- OS: Ubuntu 18.04
+- OS: Ubuntu 20.04.06
 - Python: 3.7.17 
 - PyTorch: 1.11.0+cu113
 - spconv-cu113: 2.2.6
