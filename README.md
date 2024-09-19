@@ -3,6 +3,7 @@
   <source src="https://raw.githubusercontent.com/sharifinjf/DAT/main/docs/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+![A](docs/pipline.svg)
 
 ### Requirements
 - OS: Ubuntu 18.04
