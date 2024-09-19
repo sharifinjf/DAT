@@ -174,7 +174,7 @@ cohort_analysis -> Reports evaluation metrics per motion subclass static/linear/
 K -> topK evaluation, only useful for FutureDet
 ```
 
-### [Pre-trained Models](https://drive.google.com/drive/folders/18fvE3MvXQGDThIPs9iFjQMuUJp5_waxp?usp=sharing)
+### [Pre-trained Models](https://drive.google.com/drive/folders/157Zh10jtqSBogLCXwwKgxrOuMswszieE?usp=drive_link)
 
 ## Acknowlegement
 This project is not possible without multiple great opensourced codebases. We list some notable examples below.
